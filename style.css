@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-/* Root Colors */
 :root {
-  --purple: #800080;
+  --gold: #DAA520; /* goldenrod color */
   --light-pink: #ffe4ee;
   --white: #fff;
 }
@@ -21,7 +20,7 @@ body {
 
 /* Header */
 header {
-  background: var(--purple);
+  background: var(--gold);
   color: var(--white);
   padding: 1.5rem 2rem;
   display: flex;
@@ -69,7 +68,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: var(--purple);
+  background: var(--gold);
   color: var(--white);
   padding: 2.5rem 1rem;
   text-align: center;
@@ -102,13 +101,13 @@ nav a:hover {
   border-radius: 22px;
   box-shadow: 0 8px 32px rgba(128, 0, 128, 0.09);
   border: 1px solid #e0e0e0;
-  color: var(--purple);
+  color: var(--gold);
 }
 
 .form-section h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: var(--purple);
+  color: var(--gold);
   margin-bottom: 1.5rem;
 }
 
@@ -117,23 +116,23 @@ input, select, textarea {
   width: 100%;
   margin: 0.5rem 0 1rem 0;
   padding: 0.85rem;
-  border: 1.5px solid var(--purple);
+  border: 1.5px solid var(--gold);
   border-radius: 8px;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   background: var(--white);
-  color: var(--purple);
+  color: var(--gold);
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 input:focus, select:focus, textarea:focus {
-  border-color: var(--purple);
-  box-shadow: 0 0 8px var(--purple);
+  border-color: var(--gold);
+  box-shadow: 0 0 8px var(--gold);
   outline: none;
 }
 
 button {
-  background: var(--purple);
+  background: var(--gold);
   color: var(--white);
   border: none;
   border-radius: 24px;
@@ -156,7 +155,7 @@ button:hover {
 footer {
   text-align: center;
   padding: 1.25rem;
-  background: var(--purple);
+  background: var(--gold);
   color: var(--white);
   border-top: 2px solid #e0e0e0;
   box-shadow: 0 -2px 12px rgba(128, 0, 128, 0.05);
